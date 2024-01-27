@@ -18,15 +18,15 @@ Route::get('/', function () {
 });
 
 Route::get('/produtos', function(){
-    return view('produtos');
+    return view('/produtos/produtos');
 });
 
-Route::view('/politica-de-privacidade', 'politicaPrivacidade');
+Route::view('/politica-de-privacidade', '/informacoes/politicaPrivacidade');
 
 Route::get('paineladmin', function(){
     return view('/admin/paineladmin');
 });
 
 Route::get('contato', function(){
-    return view('contato');
+    return view('/informacoes/contato');
 });
