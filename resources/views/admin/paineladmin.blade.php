@@ -1,0 +1,1 @@
+<h1>Zona Proibida, painel admin</h1>
