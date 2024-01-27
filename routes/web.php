@@ -23,7 +23,7 @@ Route::get('/produtos', function(){
 
 Route::view('/politica-de-privacidade', '/informacoes/politicaPrivacidade');
 
-Route::get('paineladmin', function(){
+Route::post('paineladmin', function(){
     return view('/admin/paineladmin');
 });
 
